@@ -5,8 +5,8 @@ metadata:
   name: prometheus-operator
   namespace: prometheus-operator
   annotations:
-    flux.weave.works/automated: "false"
-    flux.weave.works/tag.chart-image: semver:~4.0
+    flux.weave.works/automated: "true"
+    flux.weave.works/tag.chart-image: semver:~5.14
 spec:
   releaseName: mongodb
   chart:
