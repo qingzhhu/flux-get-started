@@ -8,7 +8,7 @@ metadata:
     flux.weave.works/automated: "true"
     flux.weave.works/tag.chart-image: semver:~5.14
 spec:
-  releaseName: mongodb
+  releaseName: prometheus-operator
   chart:
     repository: https://kubernetes-charts.storage.googleapis.com/
     name: prometheus-operator
