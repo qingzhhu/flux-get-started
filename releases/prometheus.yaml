@@ -14,4 +14,3 @@ spec:
     name: prometheus-operator
     version: 5.14.1
   values:
-    commonLabels: flux
