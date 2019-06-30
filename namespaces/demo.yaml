@@ -5,6 +5,16 @@ metadata:
     name: demo
   name: demo
 
+
+---
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    name: storage
+  name: storage
+
 ---
 
 apiVersion: v1
